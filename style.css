@@ -131,10 +131,12 @@ button{
       
         #p1 {
           font-size: 200%; /* Reduce font size for smaller screens */
+          text-align: center;
         }
       
         #p2 {
           font-size: 80%; /* Reduce font size for smaller screens */
+          text-align: center;
         }
       
         input,
