@@ -1,0 +1,161 @@
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: rgb(240,129,131);
+    justify-content: center;
+    align-content: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.left{
+    margin-right: 5%;
+}
+
+.right2{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+    
+}
+#p1{
+    font-weight: bold;
+    font-size: 300%;
+    color: white;
+}
+
+#p2{
+    font-size: 100%;
+    color: white;
+}
+
+
+
+input{
+    margin-top: 2%;
+    width: 90%;
+    height: 67%;
+    margin-left: 5%;
+}
+button{
+    margin-top: 2%;
+    width: 92%;
+    height: 130%;
+    margin-left: 5%;
+    border-radius: 13px;
+    background-color: rgb(95,205,139);
+    color: white;
+    
+}
+
+.top{
+    background-color:rgb(93,84,163) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    }
+    .center{
+    text-align: center;
+    color: white;
+    }
+
+#span2{
+    color: red;
+}
+#span1{
+    font-weight: bolder;
+}
+
+#name{
+    height: 40px;
+}
+
+#last{
+    height: 40px;
+}
+
+#email{
+    height: 40px;
+}
+
+#pass{
+    height: 40px;
+}
+
+ #btn{
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+ }
+
+ #parag{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+ }
+ #name{
+    font-weight: bold;
+ }
+
+
+    @media screen and (max-width: 768px) {
+        /* Styles for screens up to 768px wide (e.g., tablets and mobile devices) */
+      
+        body {
+          background-image: url(images/bg-intro-mobile.png); /* Change background image */
+        }
+      
+        .container {
+          flex-direction: column; /* Stack content vertically on smaller screens */
+          align-items: center; /* Center align content */
+          margin-top: 5%; /* Adjust margin for smaller screens */
+        }
+      
+        .left {
+          margin-right: 0; /* Remove margin on the left column */
+          margin-bottom: 5%; /* Add some space between columns */
+        }
+      
+        .right2 {
+          border: none; /* Remove border on the right column */
+          border-radius: 0; /* Remove border radius */
+          padding: 10px; /* Add padding for better spacing */
+        }
+      
+        #p1 {
+          font-size: 200%; /* Reduce font size for smaller screens */
+        }
+      
+        #p2 {
+          font-size: 80%; /* Reduce font size for smaller screens */
+        }
+      
+        input,
+        button {
+            margin-left: 15%;
+          width: 70%; /* Make input fields and buttons full width */
+        }
+      
+        .top {
+          margin-bottom: 2%; /* Reduce margin for top section */
+          border-radius: 0; /* Remove border radius */
+        }
+      
+        #parag {
+          margin: 20px; /* Adjust margin for smaller screens */
+        }
+      
+        #name {
+          font-weight: normal; /* Remove bold font weight */
+        }
+      }
+
+
+ 
